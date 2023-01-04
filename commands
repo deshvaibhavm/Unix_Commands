@@ -11,3 +11,5 @@ cd - - move back to previous folder path
 echo - print the text/string on terminal
 ls - list files
 ls -l - list files with number of predefinied 
+touch - create zero byte file
+cat - print file content over screen
