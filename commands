@@ -13,3 +13,6 @@ ls - list files
 ls -l - list files with number of predefinied 
 touch - create zero byte file
 cat - print file content over screen
+date - print the system date
+time - time to complete command execution
+sleep - delay the execution of the next command in sequence
