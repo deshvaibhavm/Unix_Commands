@@ -16,3 +16,6 @@ cat - print file content over screen
 date - print the system date
 time - time to complete command execution
 sleep - delay the execution of the next command in sequence
+cp - copy files from one source dir to destination dir
+mv - rename/move file
+mkdir - make new directory
