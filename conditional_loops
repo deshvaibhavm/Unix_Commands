@@ -1,0 +1,22 @@
+if command is successful
+then
+    execute commands
+fi
+********************************************
+if command is successful
+then
+    execute commands
+else
+    execute commands
+fi
+********************************************
+if command is successful
+then
+    execute commands
+elif command is successful
+then
+    execute commands
+else
+    execute commands
+fi
+********************************************
