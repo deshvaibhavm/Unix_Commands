@@ -1,13 +1,12 @@
 Visit my youtube channel to see the video tutorial for below mentioned commands
 https://www.youtube.com/@vaibhavmdeshmukh/about
 
-
-
 pwd - print working directory
 cd - change directory
 cd ~ - go to home dir of the user from current folder
 cd .. - move one level up from current dir
 cd - - move back to previous folder path
+clear - clear the screen
 echo - print the text/string on terminal
 ls - list files
 ls -l - list files with number of predefinied 
@@ -19,3 +18,16 @@ sleep - delay the execution of the next command in sequence
 cp - copy files from one source dir to destination dir
 mv - rename/move file
 mkdir - make new directory
+read - read the user input over the terminal
+cal - calender command
+bc - calculator command, quit to move out of the caculator command
+wc - count the number of lines, words, characters
+uname - operating system name
+whatis - command description
+whereis - command path
+whoami - whats the username
+who - who all are logged into server
+
+
+Special symbols 
+| - pipe, to get outout of first command and pass on to next command on the same line
