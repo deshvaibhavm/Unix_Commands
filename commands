@@ -27,7 +27,9 @@ whatis - command description
 whereis - command path
 whoami - whats the username
 who - who all are logged into server
+zip & unzip - compress and archive file/directory together
 
 
 Special symbols 
 | - pipe, to get outout of first command and pass on to next command on the same line
+
