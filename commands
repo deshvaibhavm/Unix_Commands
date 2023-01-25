@@ -28,8 +28,9 @@ whereis - command path
 whoami - whats the username
 who - who all are logged into server
 zip & unzip - compress and archive file/directory together
-
+grep – to search a file for a pattern and display matching and non-matching lines 
 
 Special symbols 
 | - pipe, to get outout of first command and pass on to next command on the same line
-
+^ - caret symbol, start of the line, grep command
+$ - end of the line, grep command
