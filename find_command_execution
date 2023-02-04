@@ -1,0 +1,5 @@
+considering the command execution is happening from current path
+Lets assume path as ~/data_files/directory1/
+
+find Command to know if known file is available on current path or not?
+find . -name test.txt -print
