@@ -32,6 +32,8 @@ grep – to search a file for a pattern and display matching and non-matching li
 head - disaplys the top line of a file
 tail - dispalys the bottom line of a file
 cut - cut out selected portions of each line of a file
+sort  – sort or merge records (lines) of text and binary files
+
 
 Special symbols 
 | - pipe, to get outout of first command and pass on to next command on the same line
