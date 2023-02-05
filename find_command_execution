@@ -25,3 +25,9 @@ find . -maxdepth 1 -atime +365 -print
 find . -maxdepth 1 -atime +365 -exec ls {} \;
   with great caution, you can also use ok command which would ask for user confirmation
 find . -maxdepth 1 -atime +365 ok {} \;
+
+How to get list of files/directories having specific permission? you can change the values at the end of the command as per your need
+  for files in the current folder
+find . -maxdepth 1 -type f -perm -644
+  for direcotry in the current folder
+find . -type d -perm -644
