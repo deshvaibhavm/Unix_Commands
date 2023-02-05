@@ -12,3 +12,16 @@ find . -maxdepth 1 -name "*.txt" -print
 
 How to get available sub-directory from the current directory path?
 find . -type d -print
+
+How to get list of files from current path modified 180 days back or more?
+find . -maxdepth 1 -type f -mtime +180 -print
+
+How to get list of files from current path & Sub-directory modified 180 days back or more?
+find . -type f -mtime +180 -print
+
+How to get list of files not accessed in a year or more and print them?
+find . -maxdepth 1 -atime +365 -print
+  list them and if you want to delete, please take caution at your end, use rm command
+find . -maxdepth 1 -atime +365 -exec ls {} \;
+  with great caution, you can also use ok command which would ask for user confirmation
+find . -maxdepth 1 -atime +365 ok {} \;
