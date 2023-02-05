@@ -20,3 +20,15 @@ else
     execute commands
 fi
 ********************************************
+test if file size is greated then zero or not
+
+if [ -s test.doc ]
+then
+echo "file size is greated than zero"
+else
+echo "file size is zero"
+fi
+
+Same as above
+if [ -s test.doc ]; then echo "file has size greater than zero"; else echo "file size is zero"; fi
+********************************************
