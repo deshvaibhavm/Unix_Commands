@@ -10,3 +10,5 @@ find . -name "*.txt" -print
 How to get list of files with similar extention pattern from a directory path?
 find . -maxdepth 1 -name "*.txt" -print
 
+How to get available sub-directory from the current directory path?
+find . -type d -print
