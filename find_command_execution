@@ -4,6 +4,9 @@ Lets assume path as ~/data_files/directory1/
 find Command to know if known file is available on current path or not?
 find . -name test.txt -print
 
-how to get a list of file with similar pattern extn from a directory path from its sub-directory?
+how to get a list of file with similar pattern extention from a directory path from its sub-directory?
 find . -name "*.txt" -print
+
+How to get list of files with similar extention pattern from a directory path?
+find . -maxdepth 1 -name "*.txt" -print
 
