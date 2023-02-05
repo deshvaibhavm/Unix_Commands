@@ -32,3 +32,14 @@ fi
 Same as above
 if [ -s test.doc ]; then echo "file has size greater than zero"; else echo "file size is zero"; fi
 ********************************************
+test if file is available or not
+if [ -f list ]
+then
+echo "file is available"
+else
+echo "file doesnt exist"
+fi
+
+if [ -f listttt ]; then echo "file is available"; else echo "file doesnt exist"; fi
+file doesnt exist
+********************************************
