@@ -1,0 +1,22 @@
+Sed Command Execution
+
+Line Address in a file
+
+1. print first 5 lines and quit
+   sed '5q' file_name
+2. print lines mentioned in the sed command address
+   sed -n '1,2p' filename
+3. print last line in a file
+   sed -n '$p' filename
+4. print multiple group of lines
+   sed '1,2p
+   4,5p
+   $p' filename
+5. do not print mentioned address, print rest
+   sed -n '3,$!p' filename
+6. executing multiple instructions
+   sed -n -e '1,2p' -e '4,5p' -e '$p' filename
+7. executing instructions about line addressing from a file
+   sed -n -f instruction_file filename
+   instruction_file is having line addressing
+
