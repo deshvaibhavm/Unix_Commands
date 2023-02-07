@@ -1,7 +1,6 @@
 Sed Command Execution
 
 Line Address in a file
-
 1. print first 5 lines and quit
    sed '5q' file_name
 2. print lines mentioned in the sed command address
@@ -20,3 +19,11 @@ Line Address in a file
    sed -n -f instruction_file filename
    instruction_file is having line addressing
 
+Context Addressing in a file
+1. One should know what text to search and perform the context addressing over the required file
+
+   sed -n '/text/p' filename
+   sed -n '/text/w to_be_saved_in_a_file' filename
+   
+Append/Insert/Change/Delete Lines from a file
+  
